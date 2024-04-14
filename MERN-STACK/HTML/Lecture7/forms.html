@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- form tag is used to create a form -->
+    <form action="submit.php" method="post">
+        <!-- input tag is used to take input from user -->
+        <input type="text" name="username" id="username" placeholder="Enter your username">
+        <br>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+        <br>
+        <!-- <input type="submit" value="Submit"> -->
+    
+        <!-- textarea tag is used to take multiple line input from user -->
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+        <br>
+        <!-- select tag is used to create a dropdown list -->
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+
+        <!-- radio button -->
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <br><br>
+
+        <!-- checkbox -->
+        <label for="singing">singing</label>
+        <input type="checkbox" name="hobby" id="singing">
+        <label for="chess">Chess</label>
+        <input type="checkbox" name="hobby" id="chess">
+        <br><br>
+
+        <!-- submit -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

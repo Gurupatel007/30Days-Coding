@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet Shop</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-weight: bolder; */
+            font-weight:bolder;
+            font-size:large;
+            color: white;
+            /* font-family: "Montserrat"; */
+            font-family: 'Montserrat Subrayada', sans-serif;
+        }
+
+        body {
+            background-color: #2c2c2c;
+            text-decoration: none;
+        }
+
+        header {
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        ul li a {
+            margin: 0 5px;
+            border: 1px solid white;
+            padding: 0px 10px;
+            text-decoration: none;
+            border-radius: 50px;
+        }
+
+        .logo {
+            border: 2px solid white;
+            padding: 10px 5px;
+
+        }
+
+        .signup {
+            background-color: white;
+            color: black;
+        }
+        main{
+            display: flex;
+            height: 90vh;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0px 150px;
+            flex-wrap: wrap;
+        }
+        main h2{
+            font-size:30px;
+            text-transform: uppercase;
+        }
+        main p{
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 31.5px;
+            margin: 30px 0px;
+        }
+        .contentleft{
+            flex: 1;
+        }
+        .contentmid{
+            flex: 2;
+        }
+        .contentright{
+            flex: 1;
+        }
+        .mercury{
+            max-width: 500px;
+            height: auto;    
+        }
+        .btn{
+            padding:15px 30px;
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .btn:hover{
+            background-color: #2c2c2c;
+            color: white;
+            border:2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Offers</a>
+                </li>
+                <li>
+                    <a href="#">Buy Now</a>
+                </li>
+                <li>
+                    <a href="#">Sell Now</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#" class="signup">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contentleft">
+            <h2>Mercury</h2>
+        </div>
+        <div class="contentmid">
+            <p>
+                Mercury, the innermost planet of the solar system and the eighth in size and mass. Its closeness to the
+                Sun and its smallness make it the most elusive of the planets visible to the unaided eye. Because its
+                rising or setting is always within about two hours of the Sun’s, it is never observable when the sky is
+                fully dark. Mercury is designated by the symbol ☿. <br>
+                Mercury is the closest planet to the Sun, at a distance of 57.91 million kilometers / 35.98 miles or 0.4
+                AU away. It takes sunlight 3.2 minutes to travel from the Sun to Mercury.
+            </p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="contentright">
+            <img src="./About.png" alt="Image of Mercury" class="mercury">
+        </div>
+    </main>
+</body>
+
+</html>

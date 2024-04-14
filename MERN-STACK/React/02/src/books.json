@@ -1,0 +1,20 @@
+[
+    {
+        "image":
+            "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_640.jpg",
+        "title": "Books 1",
+        "price": "$150"
+    },
+    {
+        "image":
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpUJ870f29d47y-h4QQn0trUgkpmS5LQcxE8Q_U91HUA&s",
+        "title": "Books 2",
+        "price": "$50"
+    },
+    {
+        "image":
+            "https://thumbs.dreamstime.com/b/open-book-hardback-books-wooden-table-education-background-back-to-school-copy-space-text-76106466.jpg",
+        "title": "Books 3",
+        "price": "$100"
+    }
+]

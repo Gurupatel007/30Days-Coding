@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <!-- local image -->
+    <!-- <img src="./images/SamplePhoto_11.jpg" alt="An Image" height="350" width="500"> -->
+
+    <!-- image taken from web -->
+    <!-- <img src="https://i.pinimg.com/736x/bf/95/34/bf953419d76bf747cba69b55e6e03957.jpg" alt="An image of pickachu"> -->
+
+
+    <!-- picture tag -->
+    
+    <picture>
+        <source media="(min-width:650px)" srcset="https://i.pinimg.com/736x/bf/95/34/bf953419d76bf747cba69b55e6e03957.jpg">
+        <source media="(min-width:450px)" srcset="https://w7.pngwing.com/pngs/227/909/png-transparent-pokemon-charmander-pokemon-go-pikachu-ash-ketchum-charmander-pokemon-orange-fictional-character-cartoon-thumbnail.png">
+        <img src="./images/SamplePhoto_12.jpg" alt="An image" height="350" width="500">
+    </picture>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+body{
+    /* background-color: beige; */
+    /* background-image: url('https://i.pinimg.com/736x/bf/95/34/bf953419d76bf747cba69b55e6e03957.jpg');
+    background-repeat: no-repeat; */
+
+    /* short hand property */
+    background: url('https://i.pinimg.com/736x/bf/95/34/bf953419d76bf747cba69b55e6e03957.jpg') no-repeat;
+}

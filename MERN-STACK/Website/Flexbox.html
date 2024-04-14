@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        #header {
+            background-color: #f1c40f;
+            height: 100px;
+            text-align: center;
+        }
+
+        #nav ul{
+            background-color: #e74c3c;
+            height: 50px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            gap:30px;
+            list-style: none;
+        }
+
+        #article {
+            background-color: #3498db;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #footer {
+            background-color: #2ecc71;
+            height: 60px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Header</h1>
+        </div>
+        <div id="nav">
+            <!-- <h1>Nav</h1> -->
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div id="article">
+            <!-- <h1>Article</h1> -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div id="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+
+</body>
+</html>

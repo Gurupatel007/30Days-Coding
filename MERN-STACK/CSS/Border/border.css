@@ -1,0 +1,7 @@
+h1{
+    /* border: 2px solid black; */
+    border-color: blue;
+    border-style: dashed;
+    border-width: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            display: grid;
+            grid-template-rows: 100px 50px 1fr 60px;
+            height: 100vh;
+        }
+
+        #header {
+            background-color: #f1c40f;
+            text-align: center;
+        }
+
+        #nav{
+            background-color: #e74c3c;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            list-style: none;
+        }
+        #nav ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            grid-column: 1/4;
+            list-style: none;
+        }
+        
+        #article {
+            background-color: #3498db;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:10px;
+        }
+
+        #footer {
+            background-color: #2ecc71;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- create a website so give html for it -->
+    <div id="container">
+        <div id="header">
+            <h1>Header</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div id="article">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div id="footer">
+            <h1>Footer</h1>
+        </div>
+</body>
+</html>

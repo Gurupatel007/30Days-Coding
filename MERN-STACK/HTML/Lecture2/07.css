@@ -1,0 +1,15 @@
+/* external css */
+h1 {
+    background-color: red;
+    color:white;
+}
+
+.heading{
+    background-color: blue;
+    color:white;
+}
+
+#heading{
+    background-color: green;
+    color:white;
+}
