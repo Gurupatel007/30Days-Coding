@@ -1,2 +1,2 @@
-# MERN-Stack
-In this i will be sharing my MERN stack journey resources.
+# 30days coding Progress 
+In this i will be sharing my 30days coding platform learning journey and resources.
