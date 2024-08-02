@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structures and Algorithms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+        .testimonial-content {
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .dot {
+            cursor: pointer;
+        }
+
+        .dot-active {
+            background-color: #1f2937;
+            /* dark gray */
+        }
+
+        .hero-title {
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .new-release {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1.5rem;
+            line-height: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="m-3">
+        <header class="flex items-center gap-3">
+            <img src="./assets/images/site-logo.svg" width="40px" height="10px" alt="">
+            <h4 class="font-bold text-2xl">DSA Revision</h4>
+        </header>
+
+        <section class="flex px-20 gap-10 justify-center items-center">
+
+            <!-- left-section -->
+            <div class="min-h-screen flex flex-col justify-center gap-10">
+                <div class="flex flex-col gap-10 items-start">
+                    <h3 class="hero-title text-[#1c1e2e] text-5xl font-bold">Best Way to revise for your next coding
+                        interview</h3>
+                    <p class="text-xl text-[#4c527d]">Get everything in a single guide: Data structures, algorithms,
+                        patterns, visualizers, questions, examples, solutions, explanations, and much more!</p>
+
+                    <button class="bg-[#DDDDDD] hover:bg-[#ff90e8] w-[90%] text-2xl font-bold font-mono uppercase py-3 rounded-lg">
+                        <a href="./assets/File/Complete tech job guide(1).pdf" download>Get For
+                            FREE</a>
+                        </button>
+                </div>
+                <div>
+                    <div id="testimonials"
+                        class=" rounded-md testimonial-content bg-[#f6f8fc] w-[90%] px-5 py-3 border-l-4 border-[#f5a782]">
+                        <!-- Testimonial Content -->
+                        <p class="text-xl text-left text-gray-700" id="testimonial-text">"Testimonial 1: This is a
+                            wonderful product!"</p>
+                        <p class="text-right text-gray-500 mt-4" id="testimonial-author">- Author 1</p>
+                    </div>
+                    <div class="flex justify-center mt-4">
+                        <!-- Dots for navigation -->
+                        <div class="dot w-3 h-3 bg-gray-400 rounded-full mx-1" data-index="0"></div>
+                        <div class="dot w-3 h-3 bg-gray-400 rounded-full mx-1" data-index="1"></div>
+                        <div class="dot w-3 h-3 bg-gray-400 rounded-full mx-1" data-index="2"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- right-section -->
+            <div class="">
+                <img src="./assets/images/dsa-main.png" alt="">
+                <div
+                    class="absolute top-[3vw] right-[6vw] flex justify-center items-center w-[125px] h-[125px] bg-[#5cb377] rounded-full">
+                    <Release class="text-white new-release font-bold text-center">New Release
+                        <p />
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col gap-10 mt-20">
+            <h3 class="text-center hero-title text-5xl font-bold text-[#1c1e2e]">What's Included</h3>
+            <div class="flex gap-20 justify-center">
+                <div>
+                    <img class="rounded-md" src="./assets/images/guide2.jpg" width="450px" alt="">
+                </div>
+                <div class="flex flex-col gap-10 items-center">
+                    <ul class="text-xl text-[#4c527d] flex flex-col gap-5">
+                        <li>
+                            <span>
+                                <i class="fa-regular fa-circle-check" style="color: #63E6BE;"></i>
+                            </span>15+ algo patterns discussed
+                        </li>
+                        <li><span><i class="fa-regular fa-circle-check" style="color: #63E6BE;"></i></span> Detailed
+                            solutions and explanations</li>
+                        <li><span><i class="fa-regular fa-circle-check" style="color: #63E6BE;"></i></span> Awesome
+                            resources, articles, blogs</li>
+                        <li><span><i class="fa-regular fa-circle-check" style="color: #63E6BE;"></i></span> Visualizers
+                            and animations included</li>
+                        <li><span><i class="fa-regular fa-circle-check" style="color: #63E6BE;"></i></span> 100 pages of
+                            quality content</li>
+                        <li><span><i class="fa-regular fa-circle-check" style="color: #63E6BE;"></i></span> Concepts
+                            explained for beginners</li>
+                        <li><span><i class="fa-regular fa-circle-check" style="color: #63E6BE;"></i></span> All in one
+                            revision guide</li>
+                    </ul>
+                    <div
+                        class="text-center bg-orange-500 hover:bg-orange-600 text-white text-xl font-bold font-mono px-4 py-3 rounded-full">
+                        <button><a href="./assets/File/Complete tech job guide(1).pdf" download>Download for
+                                free</a></button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="w-[100vw] mt-20 flex flex-wrap gap-3 justify-center">
+            <div class="border-2 rounded-md w-[40vw] px-5 py-10 flex flex-col gap-3">
+                <p class="text-md text-[#808080]">
+                    “Walling helps us <span class="text-black">visually organise ideas and tasks</span>, work collaboratively and efficiently within our team. The visual experience makes it so easy to plan content and stay on track with our projects and campaigns.”
+                    <p />
+                <div class="flex items-center gap-5">
+                    <span>
+                        <img src="./assets/images/profiles/profile-1.png" width="70px" alt="">
+                    </span>
+                    <span>
+                        <h4 class="text-[#4c527d]">Harsh Pandey</h4>
+                        <p class="text-[#aaa]">Head of Development</p>
+                    </span>
+                </div>
+            </div>
+            
+            <div class="border-2 rounded-md w-[40vw] px-5 py-10 flex flex-col gap-3">
+                <p class="text-md text-[#808080]">
+                    “Walling helps us <span class="text-black">visually organise ideas and tasks</span>, work collaboratively and efficiently within our team. The visual experience makes it so easy to plan content and stay on track with our projects and campaigns.”
+                    <p />
+                <div class="flex items-center gap-5">
+                    <span>
+                        <img src="./assets/images/profiles/profile-1.png" width="70px" alt="">
+                    </span>
+                    <span>
+                        <h4 class="text-[#4c527d]">Harsh Pandey</h4>
+                        <p class="text-[#aaa]">Head of Development</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="border-2 rounded-md w-[40vw] px-5 py-10 flex flex-col gap-3">
+                <p class="text-md text-[#808080]">
+                    “Walling helps us <span class="text-black">visually organise ideas and tasks</span>, work collaboratively and efficiently within our team. The visual experience makes it so easy to plan content and stay on track with our projects and campaigns.”
+                    <p />
+                <div class="flex items-center gap-5">
+                    <span>
+                        <img src="./assets/images/profiles/profile-1.png" width="70px" alt="">
+                    </span>
+                    <span>
+                        <h4 class="text-[#4c527d]">Harsh Pandey</h4>
+                        <p class="text-[#aaa]">Head of Development</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="border-2 rounded-md w-[40vw] px-5 py-10 flex flex-col gap-3">
+                <p class="text-md text-[#808080]">
+                    “Walling helps us <span class="text-black">visually organise ideas and tasks</span>, work collaboratively and efficiently within our team. The visual experience makes it so easy to plan content and stay on track with our projects and campaigns.”
+                    <p />
+                <div class="flex items-center gap-5">
+                    <span>
+                        <img src="./assets/images/profiles/profile-1.png" width="70px" alt="">
+                    </span>
+                    <span>
+                        <h4 class="text-[#4c527d]">Harsh Pandey</h4>
+                        <p class="text-[#aaa]">Head of Development</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-10 text-xl">
+            <p>Designed with <i class="fa-solid fa-heart" style="color: #ff8787;"></i> by <a class="hover:text-[#808080]" href="https://github.com/Gurupatel007">Guru Patel</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
